@@ -55,6 +55,11 @@ const setRouter = new Router({
 					name:"flex",
 					component:()=>import('@views/Css/flex'),
 				},
+				{
+					path:"array",
+					name:"array",
+					component:()=>import('@views/Javascript/array'),
+				},
 			]
 		}
   ]

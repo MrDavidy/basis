@@ -32,6 +32,13 @@
                     </template>
                     <MenuItem name="3-1" :to="{name:'flex'}">flex布局</MenuItem>
                 </Submenu>
+                <Submenu name="4">
+                    <template slot="title">
+                       <Icon type="md-appstore" />
+                        javascript
+                    </template>
+                    <MenuItem name="4-1" :to="{name:'array'}">array的处理</MenuItem>
+                </Submenu>
             </Menu>
             </Sider>
             <Layout>
